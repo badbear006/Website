@@ -1,0 +1,394 @@
+body {
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Gentium Book Plus', serif;
+    scroll-behavior: smooth;
+
+}
+
+
+h1 {
+    color: #1363DF;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: normal;
+    margin-top: 80px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: aquamarine;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 20px;
+    color: whitesmoke;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-top-style: solid;
+    border-color: cadetblue;
+    border-width: 3px;
+    width: 2%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: aquamarine;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+
+}
+
+#skil {
+    padding: 2px;
+}
+
+.spancol {
+    color: aquamarine;
+}
+.spancol2 {
+    color: orangered;
+}
+
+/* nav bar  */
+
+.mid {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 2px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: #00ffff;
+}
+
+.home {
+    position: fixed;
+    padding: 4px;
+    margin-left: 301px;
+    
+}
+
+
+/* below bg body*/
+
+.top-container img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.tc {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.top-container h2 {
+    margin: 25px;
+}
+
+/* social links  */
+
+.icons {
+    position: relative;
+}
+
+.icon {
+    transform: translate(2600%, -969%);
+    margin: 20px;
+}
+
+#ifix {
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+/* mid container  */
+
+
+.middle-container {
+    margin: 150px 0;
+}
+
+
+
+.middle-container p {
+    width: 40%;
+    margin-left: 555px;
+}
+
+/* education   */
+
+.e-box {
+    border: solid 2px gray;
+    border-radius: 20px 6px 30px 6px;
+    width: 400px;
+    height: 250px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+.date {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.e-box h3 {
+    font-size: 20px;
+    color: aquamarine;
+}
+
+.e-box p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.school {
+    font-size: 14px;
+    color: gainsboro;
+}
+
+
+#edu {
+    padding: 30px;
+    margin-top: -300px;
+}
+
+/* about section  */
+
+
+.about img {
+
+    float: left;
+    width: 205px;
+    display: inline;
+    margin-left: 290px;
+    margin-top: -50px;
+    border-radius: 10px 6px 20px 6px;
+}
+
+#a1 {
+    border: 2px solid aquamarine;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 7px;
+    margin-right: 570px;
+}
+
+#a2 {
+    border: 2px solid #7fffd4;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 7px;
+    margin-left: -547px;
+}
+
+.rehi {
+    display: inline-block;
+    margin-right: 442px;
+    padding: 25px;
+}
+
+
+/* skills and images */
+
+
+.exp h4 {
+    margin-left: 120px;
+    padding: 40px;
+    color: #7fffd4;
+}
+
+.para {
+    width: 40%;
+    margin-left: 610px;
+    text-align: left;
+    line-height: 2;
+}
+
+.simg {
+    width: 12%;
+
+}
+
+#simg2 {
+    filter: invert(100%);
+
+}
+
+.exp img:hover {
+    opacity: 0.8;
+}
+
+
+
+/* projects section  */
+
+.lcol {
+    color: crimson;
+}
+
+.lcol2 {
+    color: cyan;
+}
+
+.lcol3 {
+    color: darkgrey;
+}
+
+.project-pic {
+    width: 65%;
+    height: 60%;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects {
+
+    padding: 32px;
+    margin-top: 2rem;
+
+}
+
+.project-card {
+    padding: 20px;
+    margin: 10px;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.project-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+}
+
+.project-container p {
+    padding: 0.4rem;
+}
+
+.project-title {
+    margin-bottom: 10px;
+}
+
+.project-details {
+    margin-bottom: 10px;
+}
+
+
+
+
+/* bottom conatact  */
+.contact-me {
+    margin-bottom: 50px;
+}
+
+.h3-bottom {
+    font-weight: normal;
+}
+
+
+
+.btn {
+    background: #72e8bf;
+    background-image: -webkit-linear-gradient(top, #72e8bf, #42b38a);
+    background-image: -moz-linear-gradient(top, #72e8bf, #42b38a);
+    background-image: -ms-linear-gradient(top, #72e8bf, #42b38a);
+    background-image: -o-linear-gradient(top, #72e8bf, #42b38a);
+    background-image: linear-gradient(to bottom, #72e8bf, #42b38a);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 14px 9px 16px;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background: #5fc7c7;
+    background-image: -webkit-linear-gradient(top, #5fc7c7, #269696);
+    background-image: -moz-linear-gradient(top, #5fc7c7, #269696);
+    background-image: -ms-linear-gradient(top, #5fc7c7, #269696);
+    background-image: -o-linear-gradient(top, #5fc7c7, #269696);
+    background-image: linear-gradient(to bottom, #5fc7c7, #269696);
+    text-decoration: none;
+}
+
+
+/* bottom footerr */
+.bottom-container h4 {
+    color: white;
+}
+
+.bottom-container {
+    padding: 50px;
+    background-color: #1e2727;
+    border-radius: 20px 20px 0 0;
+}
+
+.bottom-container h4 {
+    padding: 0px;
+}
+
+.endp {
+    color: #EAF6F6;
+    font-size: 0.85rem;
+
+}
