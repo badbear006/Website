@@ -367,7 +367,7 @@ a:hover {
 
     .top-h2 {
         margin-right: 16px;
-        top: 14%;
+        top: 15%;
         left: 6%;
 
     }
@@ -385,8 +385,8 @@ a:hover {
     }
 
     .home {
-        padding: 4px;
-        margin-top: 215px;
+        padding: 7px;
+        margin-top: 18px;
         margin-right: -30px;
     }
 
@@ -404,5 +404,13 @@ a:hover {
     #abt {
 
         text-align: end;
-    }
+   }
+
+   .top-container img {
+    height: 25vh;
+
+}
+hr {
+    margin-top: 70px;
+}
 }
