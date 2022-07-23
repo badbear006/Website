@@ -385,8 +385,9 @@ a:hover {
     }
 
     .home {
-        padding: 9px;
+        padding: 4px;
         margin-top: 18px;
+        margin-right: -35px;
     }
 
     .navbar li a {
