@@ -15,17 +15,17 @@
 </head>
 
 <body>
-    <nav>
-        <ul class="navbar">
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#skil">Skills</a></li>
-            <li><a href="#proj">Projects</a></li>
-            <li class="home"><a href="#home">Home</a></li>
-        </ul>
-    </nav>
-
     <section id="home">
+        <nav>
+            <ul class="navbar">
+                <li id="abt"><a href="#aboutme">About Me</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#skil">Skills</a></li>
+                <li><a href="#proj">Projects</a></li>
+                <li class="home"><a href="#home">Home</a></li>
+            </ul>
+        </nav>
+
         <div class="top-container">
             <img src="images/bear.jpg" alt="bg">
             <div class="top-h2">
@@ -36,6 +36,7 @@
     </section>
     <hr>
     <!-- profile and intro -->
+    <!-- !dont do shit -->
 
     <section id="aboutme">
 
@@ -44,7 +45,7 @@
             <h2>About <span class="span-color"> Me</span> .</h2>
 
             <div class="about">
-                <img src="images/badbear.jpg" alt="profile pic">
+                <img src="images/badbear.png" alt="profile pic">
                 <p>I am a thinker & a Front End Developer from Madhya Pradesh , I love to see my imagination come
                     to life that's the reason, i am into Web Development
                     Currently I am grasping JavaScript, And i want to be a Full Stack Developer.
@@ -71,34 +72,33 @@
         <div class="boxs">
 
             <div class="e-box">
-                <span class="school">St Josephs mission school - Bijuri, MadhyaPradesh.</span>
-                <img src="images/sjms.jpg" alt="sjms">
-                <h3>Higher Senior Secondary</h3>
+
                 <span class="date"> 🗓️March 2018 - April 2019 </span>
+                <h3>Higher Senior Secondary</h3>
                 <p> I have completed my high school and senior secondary from here , After high school, i had chosen
                     Commerce Stream As it has a very diverse field that gives a variety of courses options and
                     career
                     opportunities to students. </p>
+                <span class="school">St Josephs mission school - Bijuri, MadhyaPradesh.</span>
             </div>
 
             <div class="e-box">
-                <span class="school">Kalinga university - Raipur, Chattisgarh.</span>
-                <img src="images/kalinga.png" alt="kalinga">
-                <h3>Diploma in Computer Applicatiion</h3>
-                <span class="date">🗓️June 2019 - June 2020</span>
-                <p>As i always wanted to acquire knowledge of basic computer applications, i have completed my DCA
-                    through Distance Learning, and learned the basics about Operating System, HTML, programming tools
-                    and applications which are used in our everyday lives. </p>
-            </div>
-
-            <div class="e-box">
-                <span class="school">Pt Ravishankar shukla university - Raipur, Chattisgarh.</span>
-                <img src="images/prsu.jpg" alt="prsu">
-                <h3>Bachelor of Commerce</h3>
                 <span class="date">🗓️June 2019 - May 2022</span>
+                <h3>Bachelor of Commerce</h3>
                 <p>It was most popular and sought out courses among the students after choosing commerce stream, and i
                     have choosen to. As of now i have completed my Graduation, And currently i am Learning Web
                     Devlopement. </p>
+                <span class="school">Pt Ravishankar shukla university - Raipur, Chattisgarh.</span>
+            </div>
+
+            <div class="e-box">
+
+                <span class="date">🗓️June 2020 - June 2021</span>
+                <h3>Diploma in Computer Applicatiion</h3>
+                <p>As i always wanted to acquire knowledge of basic computer applications, i have completed my DCA
+                    through Distance Learning, and learned the basics about Operating System, HTML, programming tools
+                    and applications which are used in our everyday lives. </p>
+                <span class="school">Kalinga university - Raipur, Chattisgarh.</span>
             </div>
 
         </div>
@@ -165,7 +165,7 @@
             </div>
 
             <div class="containers">
-                <img class="p-pic" src="images/p3.png" alt="Website" />
+                <img class="p-pic" id="pf-pic" src="images/p3.png" alt="Website" />
                 <h3 class="word-col3">Portfolio-Website</h3>
                 <p>Builded a Portfolio-Website , Using HTML5 and CSS3 ,
                     working on responsiveness of websites.

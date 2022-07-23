@@ -70,6 +70,11 @@ a:hover {
 }
 
 /* nav bar  */
+.navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px;
+}
 
 .navbar li {
     display: inline-block;
@@ -79,7 +84,7 @@ a:hover {
 .navbar li a {
     color: white;
     text-decoration: none;
-    padding: 20px 2px;
+    padding: 18px 2px;
 }
 
 .navbar li a:hover,
@@ -174,11 +179,6 @@ a:hover {
     color: gainsboro;
 }
 
-.e-box img {
-    height: 90%;
-
-}
-
 .e-box h3 {
     font-size: 20px;
     color: aquamarine;
@@ -186,7 +186,6 @@ a:hover {
 
 .date {
     display: block;
-    margin-bottom: 5px;
     font-size: 13px;
     font-weight: 700;
     color: #fff;
@@ -196,11 +195,6 @@ a:hover {
     margin-bottom: 1rem;
 }
 
-
-
-#edu-hr {
-    margin-top: 300px;
-}
 
 /* skills */
 .skills {
@@ -262,7 +256,7 @@ a:hover {
 }
 
 .p-pic {
-    height: 20vh;
+    height: 9em;
 }
 
 .word-col {
@@ -276,6 +270,7 @@ a:hover {
 .word-col3 {
     color: darkgrey;
 }
+
 
 /* bottom conatact  */
 .contact-me {
@@ -337,13 +332,76 @@ a:hover {
     font-size: 0.85rem;
 
 }
+
 @media only screen and (max-width: 900px) {
-    
-.simg {
-    width: 30%;
-    
+
+    .simg {
+        width: 30%;
+
+    }
+
+    .para {
+        width: 90%;
+    }
+
+    .boxs {
+        justify-content: center;
+    }
+
+    #pf-pic {
+        width: 19em;
+    }
+
+    .middle-container {
+        margin-top: 150px;
+    }
+
+    .middle-container p {
+        width: 65%;
+        margin-left: 60px;
+    }
+
+    .about img {
+        width: 45%;
+    }
+
+    .top-h2 {
+        margin-right: 16px;
+        top: 14%;
+        left: 6%;
+
+    }
+
+    .top-container h2 {
+        margin: 0;
+    }
+
+    .top-h2 h2 {
+        font-size: 0.75rem;
+    }
+
+    .navbar li {
+        font-size: 1rem;
+    }
+
+    .home {
+        padding: 9px;
+        margin-top: 18px;
+    }
+
+    .navbar li a {
+        padding: 2px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+
+    }
+
+    #abt {
+
+        text-align: end;
+    }
 }
-.para {
-    width: 90%;
-}
-  }
