@@ -404,13 +404,14 @@ a:hover {
     #abt {
 
         text-align: end;
-   }
+    }
 
-   .top-container img {
-    height: 25vh;
+    .top-container img {
+        height: 25vh;
 
-}
-hr {
-    margin-top: 70px;
-}
+    }
+
+    hr {
+        margin-top: 70px;
+    }
 }
